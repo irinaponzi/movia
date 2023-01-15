@@ -1,0 +1,236 @@
+<html lang='es'>
+  <head>
+    <title>MOVIA</title>
+    <meta charset='utf-8'/>
+    <meta name='theme-color' content='#c8061d'/>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' href='normalize.css'/>
+    <link rel='stylesheet' type='text/css' href='styles.css'/> 
+  </head>
+
+  <body>
+    <aside id='menu'>
+      <div class='head'>
+        <span>MOVIA</span>
+        <button>
+          <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+            <path d='M20 20L4 4m16 0L4 20'/>
+          </svg>
+        </button>
+      </div>
+      <nav>        
+        <a href='#about'>About</a>
+        <a href='#servicios'>Servicios</a>
+        <a href='#portfolio'>Portfolio</a>
+        <a href='#clientes'>Clientes</a>
+        <a href='#contacto' class="btn btn-primary">Contactanos</a>
+      </nav>
+    </aside>
+
+    <header>
+      <span>MOVIARECO</span>
+      <nav>
+        <a href='#about'>About</a>
+        <a href='#servicios'>Servicios</a>
+        <a href='#portfolio'>Portfolio</a>
+        <a href='#clientes'>Clientes</a>
+        <a href='#contacto' class="btn btn-primary">Contactanos</a>
+      </nav>
+      <button onclick='toggleMenu()'>
+        <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+          <path d='M3 6h18m-10 6h10M6 18h15'/>
+        </svg>
+      </button>
+    </header>
+
+    <section class='hero'>
+      <div class='text'>
+        <span><span id="title">MOVIA</span> siempre </span>         
+        <span> <span>en </span> movimiento.</span>         
+      </div>
+      <img alt='Movia' src='logo/logo-hero.png' class="img-fluid"/>
+    </section>
+    <section class='banner'> 
+      <div class='separator'>
+        <div class='line'></div>
+        <span>QUIENES SOMOS</span>
+      </div>
+    </section>
+
+    <section class='about' id='about'>
+      <div class='contrast'></div>
+      <div>
+        <div class='title'>
+          <div class="row align-items-center m-0 p-0">
+            <div class="col-md-8">
+              <div>¡Hola!</div>
+              <div>Somos MOVIA</div>
+            </div>
+            <div class="col-md-3 iconos">
+              <div><i class="bi bi-chat-square-text"></i></div>
+              <div class="ic"><i class="bi bi-chat-square-text-fill ic2"></i></div>
+            </div>
+          </div>       
+        </div>
+        <div class="txt-about">
+          <div> Trabajamos en equipo. Siempre.</div> 
+          <div> No queremos ser sólo proveedores, ni asistentes. Queremos ser parte de tu equipo y funcionar como socios estratégicos.</div>
+          <div> Trabajamos para entender el negocio, sus intereses, sus personas y sus clientes. Nos conectamos con la marca para ayudar a darle una voz, un tono, una imagen.</div>
+        </div>
+      </div>
+      <div class='separator'>
+        <div class='line'></div>        
+      </div>
+      <div class="cont-text-about-sd">
+        <div class="txt-about-sd">
+          <div> Creemos en el poder de las experiencias. Por eso, a través del desarrollo de Storytelling, construimos vínculos entre marcas y clientes sostenidos en intereses comunes, beneficios y emociones.</div>
+          <div> Somos Data Driven: cada movimiento que proponemos es la conclusión de una investigación y una reflexión previa. Cada acción que consensuamos y ejecutamos busca siempre resultados concretos y estratégicos.</div>
+        </div>
+        <div class='data'>
+          <div class='box'>
+            <span class='primary'>+15</span>
+            <span>Años de<br/>experiencia</span>
+          </div>
+          <div class='box'>
+            <div class="imagen-pres">
+              <img alt='Movia' src='logo/logo-presentacion.png' class="img-fluid"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class='servicios' id="servicios"> 
+      <div class='separator'>
+        <div class='line'></div>
+        <span>SERVICIOS</span>
+      </div>
+      <div class="row pt-5">
+        <div class="col-md-2 py-2">
+          <span><i class="bi bi-boxes"></i></span>
+          <h5 class="py-2">Estrategia digital  <br> y planing</h5>
+        </div>
+        <div class="col-md-2 py-2">
+          <span><i class="bi bi-palette2"></i></span>
+          <h5 class="py-2">Diseño y <br> branding</h5>
+        </div>
+        <div class="col-md-2 py-2">
+          <span><i class="bi bi-bar-chart"></i></span>
+          <h5 class="py-2">Social media <br> marketing</h5>
+        </div>      
+        <div class="col-md-2 py-2">
+          <span><i class="bi bi-graph-up-arrow"></i></span>
+          <h5 class="py-2">SEO & <br> paid media</h5>
+        </div>
+        <div class="col-md-2 py-2">
+          <span><i class="bi bi-layers-half"></i></span>
+          <h5 class="py-2">Desarrollo <br> web</h5>
+        </div>
+        <div class="col-md-2 py-2">
+          <span><i class="bi bi-card-checklist"></i></span>
+          <h5 class="py-2">Creatividad <br> de campañas</h5>
+        </div>
+      </div>         
+    </section>
+  
+    <section class='portfolio' id='portfolio'>
+      <div class='title'>
+        <span>Portfolio</span>
+      </div> 
+      <div class="row">        
+        <div class="colport">
+          <div class="column">
+            <img src="img/midermus.jpg" alt="Midermus" class="img-thumbnail">
+          </div>           
+          <div class="column">
+            <video class="w-100" controls>
+              <source src="img/bodegasBianchi.m4v" type="video/mp4"/>
+            </video> 
+          </div>
+          <div class="column">
+            <video class="w-100" controls>
+              <source src="img/sanMiguel.mp4" type="video/mp4"/>
+            </video>  
+          </div>        
+        </div>
+        <div class="colport">
+          <div class="column">
+            <img src="img/kotex.gif" alt="Kotex" class="img-thumbnail">
+          </div>
+          <div class="column">
+            <img src="img/digico.jpg" alt="Digico" class="img-thumbnail">
+          </div>                 
+        </div>
+        <div class="colport">          
+          <div class="column">
+            <img src="img/huggies.gif" alt="Huggies" class="img-thumbnail">
+          </div>
+          <div class="column">
+            <img src="img/apm.png" alt="San Miguel" class="img-thumbnail">
+          </div>            
+        </div>
+        <div class="colport">
+          <div class="column">
+            <img src="img/kiddy.png" alt="Kiddy" class="img-thumbnail">
+          </div>         
+          <div class="column">
+            <img src="img/unionIndustrialArg01.jpg" alt="UIA" class="img-thumbnail">
+          </div>
+          <div class="column">
+            <img src="img/unionIndustrialArg02.jpg" alt="UIA" class="img-thumbnail">
+          </div>        
+        </div>
+      </div>
+    </section>
+
+    <section id="clientes">
+      <div class='clititle'>
+        <span>Clientes</span>
+      </div>
+      <div class='clientes'> 
+        <div class='background'></div>
+        <img src="clnts/digico.png" alt='Digico'/> 
+        <img src="clnts/mercado-libre.png" alt='Mercado Libre'/> 
+        <img src="clnts/followers.png" alt='Followers'/>
+        <img src="clnts/elcronista.png"alt='El Cronista'/>
+        <img src="clnts/san-miguel.png" alt='San Miguel'/>    
+      </div>
+      <div class='clientes'>
+        <div class='background'></div>
+        <img src="clnts/room23.gif" alt='Room 23'/>
+        <img src="clnts/kiddy.png" alt='Kiddy'/>  
+        <img src="clnts/uia.png" alt='UIA'/>
+        <img src="clnts/fia.png" alt='FIA'/>
+      </div>
+    </section>
+  
+    <section id='contacto'>  
+      <div class='contact'>             
+        <div class="row m-0 p-0">     
+          <div class="col-md-6 m-0 p-0">
+            <div class="cnt-title">
+              <span class>Let’s keep in touch!</span>
+            </div> 
+            <div class="imagen">
+              <img alt='Movia' src='logo/logo-contacto.png' class="img-fluid"/>
+            </div>
+          </div>      
+          <div class="col-md-6 m-0 p-0 datos">
+            <div class="links">
+              <div><i class="bi bi-envelope-fill"></i> <a target='_blank' href='mailto:maite@moviareco.com.ar'>maite@moviareco.com.ar</a></div>
+              <div><i class="bi bi-linkedin"></i> <a target='_blank' href='https://www.linkedin.com/company/moviareco/'>Moviareco</a></div>
+              <div><i class="bi bi-whatsapp"></i> <a target='_blank' href="https://wa.me/5491167474790">+54 9 11 6747-4790</a></div> 
+            </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span> <span class="moviafooter"> MOVIARECO </span> - Siempre en Movimiento.</span>
+    </footer> 
+
+    <script src='script.js'></script>    
+  </body>
+</html>
